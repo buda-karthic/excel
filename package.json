@@ -2,6 +2,7 @@
   "name": "excel",
   "version": "1.0.0",
   "description": "Assignment",
+  "homepage": "https://buda-karthic.github.io/excel",
   "scripts": {
     "test": "test",
     "start": "parcel index.html",
