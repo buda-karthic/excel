@@ -4,9 +4,10 @@
   "description": "Assignment",
   "homepage": "https://buda-karthic.github.io/excel",
   "scripts": {
-    "test": "test",
-    "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [
     "excel"
@@ -14,6 +15,7 @@
   "author": "Karthic",
   "license": "ISC",
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "parcel": "^2.15.2"
   },
   "dependencies": {
